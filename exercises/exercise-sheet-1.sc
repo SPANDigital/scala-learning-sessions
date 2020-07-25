@@ -67,8 +67,8 @@ def eatOrBeEaten = {
 /**
 4) For-Comprehension
   Using For-Comprehension, implement the function sumOptionsFor(). The function takes 3 optional
-  integers (Option[Int]) as arguments, and should sums the value of the these integers.
-  * If only two (or one) integers exist, they should still be summed.
+  integers (Option[Int]) as arguments, and should sum the value of the these integers if they exist.
+  
 
   To understand the power of Scala's For-Comprehension, do the same but using Map & Flatmap. Implement
   this in the sumOptionsMap() function.
